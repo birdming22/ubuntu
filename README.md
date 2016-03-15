@@ -15,9 +15,9 @@ This repository contains **Dockerfile** of [Ubuntu](http://www.ubuntu.com/) for 
 
 2. Download [automated build](https://registry.hub.docker.com/u/dockerfile/ubuntu/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull dockerfile/ubuntu`
 
-   (alternatively, you can build an image from Dockerfile: `docker build -t="dockerfile/ubuntu" github.com/dockerfile/ubuntu`)
+   (alternatively, you can build an image from Dockerfile: `docker build -t="birdming22/ubuntu" github.com/birdming22/ubuntu`)
 
 
 ### Usage
 
-    docker run -it --rm dockerfile/ubuntu
+    docker run -it --rm birdming22/ubuntu
